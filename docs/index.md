@@ -37,6 +37,7 @@ Existing solutions like Sarcophagus and Safe Haven pass encrypted keys to heirs,
 | Multi-asset support | No | No | Yes |
 
 ---
+[This link is broken](broken-page-that-does-not-exist.md)
 
 ## Quick Start
 
