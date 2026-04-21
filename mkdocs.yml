@@ -16,7 +16,6 @@ theme:
 nav:
   - Home: index.md
   - How It Works: how-it-works.md
-  - Architecture: architecture.md
   - Getting Started: getting-started.md
   - Security: security.md
   - Gas Optimizations: gas-optimizations.md

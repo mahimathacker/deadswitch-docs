@@ -32,5 +32,10 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress './site/**/*.html'
+          args: |
+            --verbose
+            --no-progress
+            --exclude 'fonts.gstatic.com'
+            --exclude 'mahimathacker.github.io'
+            './site/**/*.html'
           fail: true
