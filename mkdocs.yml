@@ -1,0 +1,27 @@
+site_name: DeadSwitch
+site_description: On-Chain Crypto Inheritance Protocol
+site_url: https://YOUR_USERNAME.github.io/deadswitch-docs
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep orange
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - How It Works: how-it-works.md
+  - Architecture: architecture.md
+  - Getting Started: getting-started.md
+  - Security: security.md
+  - Gas Optimizations: gas-optimizations.md
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
